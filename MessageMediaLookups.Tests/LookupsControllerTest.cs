@@ -95,7 +95,7 @@ namespace MessageMedia.Lookups
             // Test whether the captured response is as we expected
             Assert.IsNotNull(result, "Result should exist");
                                     
-            Assert.AreEqual("{\"carrier\":{\"name\":\"AU Landline Carrier\"},\"country_Code\":\"AU\",\"phoneNumber\":\"+61491570156\",\"type\":\"MOBILE\"}", 
+            Assert.AreEqual("{\"carrier\":{\"name\":\"AU Landline Carrier\"},\"country_Code\":\"AU\",\"phone_Number\":\"+61491570156\",\"type\":\"MOBILE\"}", 
                     TestHelper.ConvertStreamToString(httpCallBackHandler.Response.RawBody),
                     "Response body should match exactly (string literal match)");
         }
