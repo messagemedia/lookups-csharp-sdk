@@ -16,41 +16,29 @@ Project -> Add NuGet Packages -> Search for 'MessageMedia'
 It's easy to get started. Simply enter the API Key and secret you obtained from the [MessageMedia Developers Portal](https://developers.messagemedia.com) into the code snippet below and a mobile number you wish to send to.
 
 ### 👀 Lookup a number
-* Destination numbers (`destination_number`) should be in the [E.164](http://en.wikipedia.org/wiki/E.164) format. For example, `+61491570156`.
-```csharp
+```
 using System;
-using MessageMedia.Messages;
-using MessageMedia.Messages.Controllers;
-using MessageMedia.Messages.Models;
+using MessageMedia.Lookups;
+using MessageMedia.Lookups.Controllers;
+using MessageMedia.Lookups.Models;
 
-namespace TestCSharpSDK
+namespace Test
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // Configure your credentials (Note, these can be pulled from the environment variables as well)
-            String basicAuthUserName = "YOUR_API_KEY";
-            String basicAuthPassword = "YOUR_API_SECRET";
-            bool useHmacAuthentication = false; //Change this to true if you are using HMAC keys
-            
-            // Instantiate the client
-            MessageMediaMessagesClient client = new MessageMediaMessagesClient(basicAuthUserName, basicAuthPassword, useHmacAuthentication);
-            IMessagesController messages = client.Messages;
+            string basicAuthUserName = "API_KEY"; // The username to use with basic authentication
+            string basicAuthPassword = "API_SECRET"; // The password to use with basic authentication
 
-            // Perform API call
-            string bodyValue = @"{
-                                   ""messages"":[
-                                      {
-                                         ""content"":""Greetings from MessageMedia!"",
-                                         ""destination_number"":""YOUR_MOBILE_NUMBER""
-                                      }
-                                   ]
-                                }";
+            MessageMediaLookupsClient client = new MessageMediaLookupsClient(basicAuthUserName, basicAuthPassword);
 
-            var body = Newtonsoft.Json.JsonConvert.DeserializeObject<MessageMedia.Messages.Models.SendMessagesRequest>(bodyValue);
+            string phone_number = "MOBILE_NUMBER";
+            string options = "carrier,type";
 
-            MessageMedia.Messages.Models.SendMessagesResponse result = messages.CreateSendMessages(body);
+            LookupAPhoneNumberResponse result = client.Lookups.GetLookupAPhoneNumber(phone_number, options);
+            Console.WriteLine(result);
+            Console.ReadLine();
         }
     }
 }
