@@ -16,7 +16,7 @@ Project -> Add NuGet Packages -> Search for 'MessageMedia'
 It's easy to get started. Simply enter the API Key and secret you obtained from the [MessageMedia Developers Portal](https://developers.messagemedia.com) into the code snippet below and a mobile number you wish to send to.
 
 ### 👀 Lookup a number
-```
+```csharp
 using System;
 using MessageMedia.Lookups;
 using MessageMedia.Lookups.Controllers;
