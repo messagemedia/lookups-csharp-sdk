@@ -44,7 +44,7 @@ namespace MessageMedia.Lookups
                 if (client == null)
                 {
                     Configuration.BasicAuthUserName = Environment.GetEnvironmentVariable("MessageMediaApiTestsKey");
-					               Configuration.BasicAuthPassword = Environment.GetEnvironmentVariable("MessageMediaApiTestsSecret");
+		    Configuration.BasicAuthPassword = Environment.GetEnvironmentVariable("MessageMediaApiTestsSecret");
                     client = new MessageMediaLookupsClient();
                 }
                 return client;
