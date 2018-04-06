@@ -1,7 +1,5 @@
 /*
  * MessageMediaLookups.PCL
- *
- * This file was automatically generated for MessageMedia by APIMATIC v2.0 ( https://apimatic.io )
  */
 using System;
 using MessageMedia.Lookups.Controllers;
@@ -35,7 +33,7 @@ namespace MessageMedia.Lookups
             set
             {
                 BaseController.ClientInstance = value;
-            }        
+            }
         }
         #region Constructors
         /// <summary>

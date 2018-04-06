@@ -1,7 +1,5 @@
 /*
  * MessageMediaLookups.Tests
- *
- * This file was automatically generated for MessageMedia by APIMATIC v2.0 ( https://apimatic.io )
  */
 using System;
 using System.Collections.Generic;
@@ -9,7 +7,7 @@ using System.Globalization;
 using System.IO;
 using System.Threading.Tasks;
 using Newtonsoft.Json.Converters;
-using APIMATIC.SDK.Common; 
+using APIMATIC.SDK.Common;
 using APIMATIC.SDK.Http.Client;
 using APIMATIC.SDK.Http.Response;
 using MessageMedia.Lookups.Helpers;
@@ -62,10 +60,10 @@ namespace MessageMedia.Lookups
         ///- ```phone_number``` E.164 formatted phone number
         ///- ```type``` The type of number. This can be ```"mobile"``` or ```"landline"```
         ///- ```carrier``` Holds information about the specific carrier (if available)
-        ///  - ```name``` The carrier's name as reported by the network 
+        ///  - ```name``` The carrier's name as reported by the network
         /// </summary>
         [Test]
-        public async Task TestLookupAPhoneNumber() 
+        public async Task TestLookupAPhoneNumber()
         {
             // Parameters for the API call
             string phoneNumber = "+61491570156";
@@ -94,8 +92,8 @@ namespace MessageMedia.Lookups
 
             // Test whether the captured response is as we expected
             Assert.IsNotNull(result, "Result should exist");
-                                    
-            Assert.AreEqual("{\"carrier\":{\"name\":\"AU Landline Carrier\"},\"country_code\":\"AU\",\"phone_number\":\"+61491570156\",\"type\":\"MOBILE\"}", 
+
+            Assert.AreEqual("{\"carrier\":{\"name\":\"AU Landline Carrier\"},\"country_code\":\"AU\",\"phone_number\":\"+61491570156\",\"type\":\"MOBILE\"}",
                     TestHelper.ConvertStreamToString(httpCallBackHandler.Response.RawBody),
                     "Response body should match exactly (string literal match)");
         }

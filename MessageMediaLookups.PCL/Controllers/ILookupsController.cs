@@ -1,8 +1,6 @@
 /*
  * MessageMediaLookups.PCL
- *
- * This file was automatically generated for MessageMedia by APIMATIC v2.0 ( https://apimatic.io )
- */
+*/
 using System;
 using System.Collections.Generic;
 using System.Dynamic;
@@ -86,4 +84,4 @@ namespace MessageMedia.Lookups.Controllers
         Task<Models.LookupAPhoneNumberResponse> GetLookupAPhoneNumberAsync(string phoneNumber, string options = null);
 
     }
-} 
+}

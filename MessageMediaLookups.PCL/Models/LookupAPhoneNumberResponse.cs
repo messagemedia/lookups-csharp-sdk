@@ -1,8 +1,6 @@
 /*
  * MessageMediaLookups.PCL
- *
- * This file was automatically generated for MessageMedia by APIMATIC v2.0 ( https://apimatic.io )
- */
+*/
 using System;
 using System.IO;
 using System.Collections.Generic;
@@ -17,7 +15,7 @@ using APIMATIC.SDK.Common;
 
 namespace MessageMedia.Lookups.Models
 {
-    public class LookupAPhoneNumberResponse : BaseModel 
+    public class LookupAPhoneNumberResponse : BaseModel
     {
         // These fields hold the values for the public properties.
         private string countryCode;
@@ -29,13 +27,13 @@ namespace MessageMedia.Lookups.Models
         /// TODO: Write general description for this method
         /// </summary>
         [JsonProperty("country_code")]
-        public string CountryCode 
-        { 
-            get 
+        public string CountryCode
+        {
+            get
             {
-                return this.countryCode; 
-            } 
-            set 
+                return this.countryCode;
+            }
+            set
             {
                 this.countryCode = value;
                 onPropertyChanged("CountryCode");
@@ -46,13 +44,13 @@ namespace MessageMedia.Lookups.Models
         /// TODO: Write general description for this method
         /// </summary>
         [JsonProperty("phone_number")]
-        public string PhoneNumber 
-        { 
-            get 
+        public string PhoneNumber
+        {
+            get
             {
-                return this.phoneNumber; 
-            } 
-            set 
+                return this.phoneNumber;
+            }
+            set
             {
                 this.phoneNumber = value;
                 onPropertyChanged("PhoneNumber");
@@ -63,13 +61,13 @@ namespace MessageMedia.Lookups.Models
         /// TODO: Write general description for this method
         /// </summary>
         [JsonProperty("type")]
-        public string Type 
-        { 
-            get 
+        public string Type
+        {
+            get
             {
-                return this.type; 
-            } 
-            set 
+                return this.type;
+            }
+            set
             {
                 this.type = value;
                 onPropertyChanged("Type");
@@ -80,17 +78,17 @@ namespace MessageMedia.Lookups.Models
         /// TODO: Write general description for this method
         /// </summary>
         [JsonProperty("carrier")]
-        public object Carrier 
-        { 
-            get 
+        public object Carrier
+        {
+            get
             {
-                return this.carrier; 
-            } 
-            set 
+                return this.carrier;
+            }
+            set
             {
                 this.carrier = value;
                 onPropertyChanged("Carrier");
             }
         }
     }
-} 
+}
