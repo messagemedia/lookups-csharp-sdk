@@ -5,13 +5,14 @@ MessageMediaLookups.PCL
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>MessageMediaLookups.PCL</id>
-    <version>1.0.0</version>
-    <title>MessageMediaLookups.PCL</title>
-    <authors>APIMATIC 2.0</authors>
-    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <version>1.0.1</version>
+    <title>MessageMedia Lookups SDK</title>
+    <authors>MessageMedia Developers</authors>
+    <owners>MessageMedia</owners>
+    <iconUrl>https://raw.githubusercontent.com/messagemedia/lookups-csharp-sdk/master/mm-logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The MessageMedia Lookups API provides a number of endpoints for validating the phone numbers you’re sending to by checking their validity, type and carrier records.</description>
-    <summary />
+     <summary>MessageMedia Lookups SDK</summary>
     <releaseNotes />
     <copyright>Copyright 2016</copyright>
     <language>en-US</language>
