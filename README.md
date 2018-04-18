@@ -1,6 +1,6 @@
 # MessageMedia Lookups C# SDK
 [![Travis Build Status](https://api.travis-ci.org/messagemedia/lookups-csharp-sdk.svg?branch=master)](https://travis-ci.org/messagemedia/lookups-csharp-sdk)
-[![nuget](https://img.shields.io/badge/nuget-v1.0.0-blue.svg)](https://www.nuget.org/packages/MessageMedia.SDK.Lookups/)
+[![nuget](https://badge.fury.io/nu/messagemedia-lookups-sdk.svg)](https://www.nuget.org/packages/MessageMedia.SDK.Lookups/)
 
 The MessageMedia Lookups API provides a number of endpoints for validating the phone numbers you’re sending to by checking their validity, type and carrier records.
 
