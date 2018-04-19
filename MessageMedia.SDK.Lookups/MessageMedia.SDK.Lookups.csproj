@@ -5,7 +5,7 @@
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <RootNamespace>MessageMedia.Lookups</RootNamespace>
-    <AssemblyName>MessageMediaLookups.PCL</AssemblyName>
+    <AssemblyName>MessageMedia.SDK.Lookups</AssemblyName>
     <OutputType>Library</OutputType>
     <OutputPath>bin/DEBUG/</OutputPath>
     <ProjectGuid>{194abb42-980b-494e-8cf4-2a2f6d217285}</ProjectGuid>

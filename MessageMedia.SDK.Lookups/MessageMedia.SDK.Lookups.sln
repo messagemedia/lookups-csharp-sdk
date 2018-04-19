@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageMedia.SDK.Lookups", "MessageMedia.SDK.Lookups.csproj", "{194ABB42-980B-494E-8CF4-2A2F6D217285}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{194ABB42-980B-494E-8CF4-2A2F6D217285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{194ABB42-980B-494E-8CF4-2A2F6D217285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{194ABB42-980B-494E-8CF4-2A2F6D217285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{194ABB42-980B-494E-8CF4-2A2F6D217285}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
