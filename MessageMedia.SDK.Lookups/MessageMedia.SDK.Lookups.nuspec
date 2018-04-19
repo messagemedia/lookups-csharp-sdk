@@ -5,7 +5,7 @@ MessageMediaLookups.PCL
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>MessageMedia.SDK.Lookups</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>MessageMedia Lookups SDK</title>
     <authors>MessageMedia Developers</authors>
     <owners>MessageMedia</owners>
@@ -18,11 +18,10 @@ MessageMediaLookups.PCL
     <language>en-US</language>
         <dependencies>
             <dependency id="APIMATIC.SDK.Common" version="2.1.0.0" />
-            <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
             <dependency id="Newtonsoft.Json" version="10.0.3" />
         </dependencies>
   </metadata>
   <files>
-    <file src="bin\Release\MessageMediaLookups.PCL.dll" target="lib\MessageMediaLookups.PCL.dll" />
+    <file src="bin\Release\MessageMedia.SDK.Lookups.dll" target="lib\MessageMedia.SDK.Lookups.dll" />
   </files>
 </package>
