@@ -39,7 +39,10 @@ namespace Test
             string options = "carrier,type";
 
             LookupAPhoneNumberResponse result = client.Lookups.GetLookupAPhoneNumber(phone_number, options);
-            Console.WriteLine(result);
+            Console.WriteLine("Carrier: " + result.Carrier);
+            Console.WriteLine("Country code: " + result.CountryCode);
+            Console.WriteLine("Phone number: " + result.PhoneNumber);
+            Console.WriteLine("Type: " + result.Type);
             Console.ReadLine();
         }
     }
