@@ -142,7 +142,7 @@ namespace MessageMedia.Lookups.Controllers
             //append request with appropriate headers and parameters
             var _headers = new Dictionary<string,string>()
             {
-                { "user-agent", "messagemedia-lookups-csharp-sdk-1.0.1" },
+                { "user-agent", "messagemedia-lookups-csharp-sdk-1.0.3" },
                 { "accept", "application/json" }
             };
 

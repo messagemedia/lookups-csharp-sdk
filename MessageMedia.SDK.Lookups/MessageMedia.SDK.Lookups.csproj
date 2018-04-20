@@ -2,12 +2,24 @@
 
   <PropertyGroup>
     <TargetFrameworks>net45;netstandard1.3</TargetFrameworks>
-    <Version>1.1.1</Version>
+    <Version>1.0.3</Version>
     <AssemblyVersion>1.1.2.0</AssemblyVersion>
     <FileVersion>1.1.2.0</FileVersion>
+	<Title>MessageMedia Lookups SDK</Title>
     <Authors>MessageMedia Developers</Authors>
     <Company>MessageMedia</Company>
-    <Product />
+    <Product>MessageMedia.SDK.Lookups</Product>
+    <Description>The MessageMedia Lookups API provides a number of endpoints for validating the phone numbers you’re sending to by checking their validity, type and carrier records.</Description>
+    <RepositoryUrl>https://github.com/messagemedia/lookups-csharp-sdk</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/messagemedia/lookups-csharp-sdk</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/messagemedia/lookups-csharp-sdk/master/mm-logo.png</PackageIconUrl>
+    <PackageTags>MessageMedia REST API lookups messaging</PackageTags>
+    <PackageLicenseUrl>https://github.com/messagemedia/lookups-csharp-sdk/blob/master/LICENSE</PackageLicenseUrl>
+    <ApplicationIcon></ApplicationIcon>
+    <Win32Resource />
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageId />
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">
