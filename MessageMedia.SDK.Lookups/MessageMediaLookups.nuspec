@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+MessageMediaLookups.PCL
+-->
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MessageMedia.SDK.Lookups</id>
+    <version>1.0.1</version>
+    <title>MessageMedia Lookups SDK</title>
+    <authors>MessageMedia Developers</authors>
+    <owners>MessageMedia</owners>
+    <iconUrl>https://raw.githubusercontent.com/messagemedia/lookups-csharp-sdk/master/mm-logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The MessageMedia Lookups API provides a number of endpoints for validating the phone numbers you’re sending to by checking their validity, type and carrier records.</description>
+    <summary>MessageMedia Lookups SDK</summary>
+    <releaseNotes />
+    <copyright>Copyright 2016</copyright>
+    <language>en-US</language>
+        <dependencies>
+            <dependency id="APIMATIC.SDK.Common" version="2.1.0.0" />
+            <dependency id="Newtonsoft.Json" version="10.0.3" />
+        </dependencies>
+  </metadata>
+  <files>
+    <file src="..\readme.md" target="" />
+
+    <!-- symbol server support-->
+    <file src="**\*.cs" target="src\" exclude="**\obj\**"/>
+
+    <!-- Assemblies and documentation-->
+    <file src="bin\Release\net45\MessageMedia.SDK.Lookups.dll" target="lib\net45\MessageMedia.SDK.Lookups.dll" />
+    <file src="bin\Release\net45\MessageMedia.SDK.Lookups.xml" target="lib\net45\MessageMedia.SDK.Lookups.xml" />
+    <file src="bin\Release\net45\MessageMedia.SDK.Lookups.pdb" target="lib\net45\MessageMedia.SDK.Lookups.pdb" />
+    <file src="bin\Release\netstandard1.3\MessageMedia.SDK.Lookups.dll" target="lib\netstandard1.3\MessageMedia.SDK.Lookups.dll" />
+    <file src="bin\Release\netstandard1.3\MessageMedia.SDK.Lookups.xml" target="lib\netstandard1.3\MessageMedia.SDK.Lookups.xml" />
+    <file src="bin\Release\netstandard1.3\MessageMedia.SDK.Lookups.pdb" target="lib\netstandard1.3\MessageMedia.SDK.Lookups.pdb" />
+    
+  </files>
+</package>

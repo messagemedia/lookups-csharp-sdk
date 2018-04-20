@@ -1,0 +1,9 @@
+C:\Users\IbrahimTareq\Documents\GitHub\lookups-csharp-sdk\MessageMedia.SDK.Lookups\obj\Debug\netstandard1.3\MessageMedia.SDK.Lookups.csprojResolveAssemblyReference.cache
+C:\Users\IbrahimTareq\Documents\GitHub\lookups-csharp-sdk\MessageMedia.SDK.Lookups\obj\Debug\netstandard1.3\MessageMedia.SDK.Lookups.csproj.CoreCompileInputs.cache
+C:\Users\IbrahimTareq\Documents\GitHub\lookups-csharp-sdk\MessageMedia.SDK.Lookups\obj\Debug\netstandard1.3\MessageMedia.SDK.Lookups.AssemblyInfoInputs.cache
+C:\Users\IbrahimTareq\Documents\GitHub\lookups-csharp-sdk\MessageMedia.SDK.Lookups\obj\Debug\netstandard1.3\MessageMedia.SDK.Lookups.AssemblyInfo.cs
+C:\Users\IbrahimTareq\Documents\GitHub\lookups-csharp-sdk\MessageMedia.SDK.Lookups\bin\Debug\netstandard1.3\MessageMedia.SDK.Lookups.deps.json
+C:\Users\IbrahimTareq\Documents\GitHub\lookups-csharp-sdk\MessageMedia.SDK.Lookups\bin\Debug\netstandard1.3\MessageMedia.SDK.Lookups.dll
+C:\Users\IbrahimTareq\Documents\GitHub\lookups-csharp-sdk\MessageMedia.SDK.Lookups\bin\Debug\netstandard1.3\MessageMedia.SDK.Lookups.pdb
+C:\Users\IbrahimTareq\Documents\GitHub\lookups-csharp-sdk\MessageMedia.SDK.Lookups\obj\Debug\netstandard1.3\MessageMedia.SDK.Lookups.dll
+C:\Users\IbrahimTareq\Documents\GitHub\lookups-csharp-sdk\MessageMedia.SDK.Lookups\obj\Debug\netstandard1.3\MessageMedia.SDK.Lookups.pdb

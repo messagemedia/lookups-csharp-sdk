@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!--
  - MessageMediaLookups.Tests
 -->
@@ -6,7 +6,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{05222648-70ea-41ff-8cf0-12de9a5320fb}</ProjectGuid>
+    <ProjectGuid>{05222648-70EA-41FF-8CF0-12DE9A5320FB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MessageMedia.Lookups</RootNamespace>
@@ -57,7 +57,6 @@
       <HintPath>..\packages\NUnit.3.2.1\lib\net45\nunit.framework.dll</HintPath>
       <Private>True</Private>
     </Reference>
-  
     <Reference Include="APIMATIC.SDK.Common">
       <HintPath>..\packages\APIMATIC.SDK.Common.2.1.0.0\lib\portable-net40+sl5+wp80+win8+wpa81\APIMATIC.SDK.Common.dll</HintPath>
     </Reference>
@@ -84,9 +83,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MessageMediaLookups.PCL\MessageMediaLookups.PCL.csproj">
-      <Project>{194abb42-980b-494e-8cf4-2a2f6d217285}</Project>
-      <Name>MessageMediaLookups.PCL</Name>
+    <ProjectReference Include="..\MessageMedia.SDK.Lookups\MessageMedia.SDK.Lookups.csproj">
+      <Project>{653a8f64-f582-4689-82df-c22b5ace6322}</Project>
+      <Name>MessageMedia.SDK.Lookups</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
